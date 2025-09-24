@@ -26,7 +26,7 @@ a {
 
 /* Variaveis Globais*/
 :root {
-    --color-destaque: #5e0ddf;
+    --color-destaque: #06a91c;
     --color-black: #101010;
     --color-white: #fafafa;
 }
@@ -107,6 +107,7 @@ a {
 }
 
 .info-icon img {
+     border-radius: 50px;
     width: 100%;
     animation: rotate 5s linear infinite;
 }
@@ -144,7 +145,7 @@ a {
 
 /* WIDGET 3: Redes sociais e link do site */
 .widget3 {
-    height: 100%;
+    width: 100%;
     height: 32%;
     border-radius: 12px;
     display: flex;
@@ -232,8 +233,8 @@ a {
     transition: color 0.3s;
 }
 
-.redes-sociais .instagram:hover i {
-    color: #E1306C;
+.redes-sociais .tiktok:hover i {
+    color: #30d5e1;
     transition: color 0.3s;
 }
 
@@ -242,7 +243,7 @@ a {
     transition: color 0.3s;
 }
 
-.redes-sociais .mail:hover i {
+.redes-sociais .SoundCloud:hover i {
     color: #808080;
     transition: color 0.3s;
 }
